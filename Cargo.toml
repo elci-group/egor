@@ -1,0 +1,23 @@
+[package]
+name = "egor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12" }
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0"
+zip = "0.6"
+flate2 = "1.1.5"
+tar = "0.4.44"
+sha2 = "0.10"
+colored = "2.0"
+chrono = "0.4"
+regex = "1.10.5"
+futures = "0.3"
+lazy_static = "1.4.0"
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8"
+self_update = "0.40.0"
+clap = { version = "4.5.11", features = ["derive"] }
+clap_complete = "4.5.11"
